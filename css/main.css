@@ -712,12 +712,14 @@ button.white:hover {
     display: block;
     color: var(--main-color-border);
     z-index: 5;
+    word-break: keep-all;
 }
 @media (max-width: 1199px) {
     .social  span {
         position: relative;
         bottom: var(--main-padding-vo);
         left: var(--main-padding-hor);
+        max-width: calc(100% - 2 * var(--main-padding-hor));
     }
 }
 /* Start Fifth Section  */
